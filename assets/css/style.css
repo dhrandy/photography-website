@@ -1,0 +1,143 @@
+/* Navbar */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2.8rem;
+  padding-left: 2.8rem;
+  padding-bottom: 10px;
+}
+
+a:hover {
+  outline: 2px solid black;
+}
+
+.title-image {
+  background-image: url("../imgs/1-1.jpg");
+}
+
+.title {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 44px;
+}
+
+.description {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+
+#top-img {
+  width: 132px;
+  padding-bottom: 10px;
+}
+
+.caption {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* text-shadow: 2px 2px black; */
+}
+
+
+h4 {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+
+h4:before,
+h4:after {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 0.5px;
+  position: absolute;
+    top: 50%;
+  width: 45%;
+}
+h4:before {
+  right: 100%;
+}
+h4:after {
+  left: 100%;
+}
+
+.profile {
+  padding: 0;
+}
+
+#profile2 {
+  /* width: 404px; */
+  /* margin-top: 10px; */
+  object-fit: cover;
+  width: 100%;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.description-title {
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+}
+
+hr {
+  border-top: 1px solid black;
+}
+
+.hr {
+  border-top: 0.5px solid black;
+  width: 40px;
+  align: left;
+  text-align:left;
+  align-content: left;
+}
+
+/* .description :before,
+.description :after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 50%;
+}
+.description :before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+.description :after {
+ left: 0.5em;
+ margin-right: -50%;
+} */
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px solid #f8f9fa;
+}
+
+/* Parallax Scrolling for the title image */
+
+.parallax-window {
+  height: 100vh;
+  background: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media only screen and (max-width: 1366px) {
+  .parallax-window {
+    background-attachment: scroll;
+    /* background-image: url(../imgs/bgmobile.jpg); */
+  }
+}
+
+/* font-family: 'Bitter', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto Condensed', sans-serif; */
