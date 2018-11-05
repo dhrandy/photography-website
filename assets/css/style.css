@@ -181,6 +181,19 @@ footer {
   text-align: center;
 }
 
+.fab {
+  font-size: 22px;
+  line-height: 23px;
+}
+
+.social a {
+  color: white;
+}
+
+.social a hover {
+  outline: none;
+}
+
 #copyright {
   font-size: 12px;
 }
