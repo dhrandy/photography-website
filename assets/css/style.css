@@ -194,6 +194,11 @@ footer {
   outline: none;
 }
 
+.social-left {
+  display: inline-block;
+  text-align: left;
+}
+
 #copyright {
   font-size: 12px;
 }
