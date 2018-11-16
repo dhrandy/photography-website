@@ -164,6 +164,23 @@ hr {
   position: relative;
 }
 
+.modal-dialog {
+  width: 800px;
+}
+
+.modal-content {
+  width: 800px;
+}
+
+.modal-body {
+  height: 85%;
+}
+
+.img-responsive1 {
+  width: 100%;
+  height: 80%;
+}
+
 footer {
   height: 210px;
   background-color: rgb(75, 75, 75);
