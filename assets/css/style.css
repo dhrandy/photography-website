@@ -220,6 +220,22 @@ footer {
   font-size: 12px;
 }
 
+.footer {
+  padding:  0px;
+  width: 100%;
+}
+
+.container-fluid {
+  padding: 0px;
+  width: 100%;
+}
+
+.row {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
 ul {
   list-style-type: none;
   text-align: center;
